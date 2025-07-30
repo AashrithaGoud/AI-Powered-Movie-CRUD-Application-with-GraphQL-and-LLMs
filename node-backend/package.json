@@ -1,0 +1,17 @@
+{
+  "name": "graphql-movies-api",
+  "version": "1.0.0",
+  "description": "Node.js GraphQL API for MongoDB movies collection (imdb)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "apollo-server": "latest",
+    "graphql": "latest",
+    "mongoose": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
